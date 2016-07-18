@@ -40,3 +40,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382)
 	... 26 more
 ```
+
+- 爬蟲包支援json格式解析
+
+   >  其實只是將 json 轉換成 xml。但從此之後，你可以只操作 .select() 解析絕大多數的資料文件
