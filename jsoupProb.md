@@ -43,4 +43,4 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 
 - 爬蟲包支援json格式解析
 
-   >  其實只是將 json 轉換成 xml。但從此之後，你可以只操作 .select() 解析絕大多數的資料文件
+   >  其實只是將 json 轉換成 xml。但從此之後，你可以只操作 .select(cssSelector) 解析絕大多數的資料文件
